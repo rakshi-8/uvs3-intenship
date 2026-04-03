@@ -7,8 +7,9 @@
     Title="app2">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    Title="Welcome Page"
+    ContentTemplate="{DataTemplate local:Welcome}"
+    Route="Welcome" />
+
 
 </Shell>

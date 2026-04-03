@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace app2
+namespace app3
 {
     public partial class App : Application
     {
@@ -11,7 +11,7 @@ namespace app2
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            return new Window(new MainPage());
+            return new Window(new AppShell());
         }
     }
 }
